@@ -1,0 +1,31 @@
+body {
+    background: url(http://i.imgur.com/b9r5sEL.jpg)
+}
+
+.keys {
+    padding-top:20%;
+    display: flex;
+    justify-content: center;
+}
+
+.key {
+    width: 90px;
+    height: 70px;
+    border-style: solid;
+    border-width: 3px;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    transition: all .07s ease;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+  color: white;
+}
